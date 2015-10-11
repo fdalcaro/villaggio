@@ -1,0 +1,523 @@
+/* @charset "UTF-8"; */
+
+/* Definizione di body */
+
+body {
+	width: 1000px;;
+	min-width: 50em; 
+	margin: 3em auto;
+	padding: 0em;
+	background-color: #FFF;
+	font-size: 62.5%;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight: lighter;
+}
+
+li a:hover {
+	color: white;
+	background-color: blue;
+	}
+
+li a {
+	text-decoration: none;
+}
+
+strong {
+	font-weight: bold;
+	font-size: 1em;
+	text-decoration:underline;  
+}
+
+h4 {
+font-weight: bold;
+font-size: 1em;
+}
+
+
+
+/* ****** home page ****** */
+
+#wrapper {
+	width: 1000px;
+	min-width: 50em;
+	margin: 0em auto;
+	padding: 0em;
+	background-color: #FFF;
+}
+
+
+/* header */
+
+#logo {
+	margin-top: -3em; 
+	float: left;
+}
+
+
+#intestazione {
+	color: #4169E1;
+	margin-top: 0;
+	margin-left: 0;
+	padding-bottom: 1em; 
+	height: 3em;
+	text-align: center;
+	background-color: white;
+	font-size: 1.8em;
+}
+
+#percorso {
+/*	width: 960px; */
+/*	min-width: 75.9em;*/
+	height: 1em;
+	margin-top: 1em;
+	padding-top: 0;
+	padding-bottom: 0.3em;
+	padding-left: 25%;
+	font-size: 1.3em;
+	font-weight: normal;
+	color: #4169E1;
+	background-color: #8DBEAF;
+/*	clear: left; */ 
+}
+
+/*
+#percorso h4 {
+	font-size: 1.2em;
+}
+*/
+
+/* navigator */
+
+#navigator {
+	color: #C2CFDE;
+	float: left;
+	width: 24.5em;
+	min-width: 20em;
+	background-color: #8DBEAF;
+}
+
+
+#navigator ul {
+	list-style-type: none;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0.5%;
+}
+
+
+#navigator h3 {
+	margin-left: 0.5em;
+}
+
+
+#navigator li {
+	background-color: #DDF8F0;
+	border-style: solid;
+	border-color: #DDF8F0;
+	list-style-position: inside;
+	text-align: left;
+/*	text-shadow: 2px 2px 2px #888;  */
+	line-height: 0em;
+	margin-left: -1.25em;
+	margin-right: 1em;
+	font-size: 1.2em;
+}
+
+
+.sub-navigator {
+	line-height: 0em;
+	margin-left: -1em;
+	font-size: 1em;
+}
+
+
+.sub-navigator li {
+	padding-left: 1em;
+	margin-top: -1.5em;
+}
+
+
+/* main */
+
+
+.main {
+	background-color: #A7D7C8;
+	border-color: #A7D7C8;
+	padding: 10px 0px;
+/*	width: 100%; */
+	min-height: 50em;
+/*	min-width: 100em; */
+/* margin-left: auto;
+	margin-right: auto; */
+}
+
+
+.main h2 {
+	font-size: 2.4em;
+	margin-top: 2em;
+	text-align: center;
+	color: #4169E1;
+}
+
+
+.main h4 {
+	margin: 0 0 1em;
+	font-size: 1.3em;
+	text-indent: 1.5em;
+}
+
+
+#testo {
+	width: 70%; 
+/*	min-width: 80em; */
+	margin-top: 4.8em;
+	padding-bottom: 3em;
+	padding-top: 0.5em;
+	padding-left: 2em;
+	padding-right: 1em;
+	background-color: #DDF8F0;
+	margin-left: 25.7em;  
+	text-align: justify;
+	}
+
+
+#testo img {
+	margin-top: 2.5em;
+	margin-left: -0.5em;
+}
+
+.img_strutture {
+	width: 70%;
+	min-width: 90em;
+	margin-left: 3em;
+	margin-right: auto;
+}
+
+.img_strutture img {
+	width: 25%;
+/*	height: 10em; */
+	margin: 0em 4em 3em;
+}
+
+
+#testo h4 {
+padding: 0em 4em 0em 3em;
+font-weight: lighter;
+font-size: 1.5em;
+}
+
+
+#primo {
+	margin-left: 1em;
+	border-radius: 1em 1em 0em 0em;
+	background-color: #DDF8F0;
+	padding-right: 1.8em;
+}
+
+
+.secondo {
+	border-color: #A7D7C8;
+	background-color: #8DBEAF;
+	border-radius: 1em 1em 0em 0em;
+	padding-right: 1.8em;
+	margin-left: 1em;
+}
+
+
+/* tabella */
+
+table {
+	width: 70%;
+	background-color: #FFF;
+	border-collapse: collapse;
+	margin: auto;
+	font-size: 1.5em;
+}
+
+th, tr, td {
+	border: solid 1px;
+	text-align: center;
+}
+
+
+th, td {
+	padding: 0.5em;
+}
+
+caption {
+	border: solid 1px;
+	background-color: #A7D7C8;
+	padding: 0.5em;
+	font-weight: bold;
+}
+
+.tabella caption {
+	margin-top: 3em;
+}
+
+
+#tabella-alloggi {
+	margin-top: 2em;
+}
+
+
+tfoot p {
+	margin-top: 0;
+	height: 0;
+	text-align: left;
+	font-style: italic;
+	font-size: 0.8em; 
+}
+
+
+
+#nota {
+	margin-top: 3%;
+	padding-left: 1.5%;
+	padding-top: 0;
+	padding-bottom: 0.5em;
+	margin-left: 15%;
+	margin-right: 15%;
+	background-color: white;
+	border-color: black;
+	border: solid thin;
+	font-size: 1.3em;
+	font-style: italic;
+}
+#nota p {
+	height: 0.3em;
+	margin-top: 1%;
+}
+
+
+
+
+/* barra navigazione orizzontale */
+
+.horizon-navigator li {
+ float: left;
+ list-style-type: none;
+ padding-top: 1em;
+ height: 2.825em;
+}
+
+
+
+.horizon-navigator {
+	height: 0em;
+	padding-left: 2em;
+	padding-right: 2em;
+	margin-left: 22.7em;
+	margin-right: auto; 
+	color: #4169E1;
+	min-width: 80em;
+}
+
+
+.sub-horizon {
+	height: 0em;
+	margin-left: -11.5em;
+	list-style-type: none;
+	margin-bottom: -1em;
+	color: #4169E1;
+	min-width: 60em;
+}
+
+
+.sub-horizon li {
+	margin-top: 2.5em;
+	margin-left: 1em;
+}
+
+
+
+#sub-horizon-strutture {
+	height: 0em;
+	margin-left: -11.5em;
+	list-style-type: none;
+	margin-bottom: -1em;
+	color: #4169E1;
+	min-width: 60em;
+}
+
+
+#sub-horizon-strutture li {
+	margin-top: 2.5em;
+	margin-left: 1em;
+}
+
+
+
+
+#sub-horizon-servizi {
+	height: 0em;
+	margin-left: -20.5em;
+	list-style-type: none;
+	margin-bottom: -1em;
+	color: #4169E1;
+	min-width: 60em;
+}
+
+
+#sub-horizon-servizi li {
+	margin-top: 2.5em;
+	margin-left: 1em;
+}
+
+
+
+
+
+/* footer */
+
+#footer {
+	width: 100%;
+	min-width: 80em;
+	height: 5em;
+	background-color: #8DBEAF;
+	font-weight: lighter;
+	
+	font-weight: lighter;
+}
+
+#validator {
+	margin-left: 1em;
+	padding-top: 1em;
+	padding-bottom: 1.3em;
+	padding-left: 1em;
+	float: left;
+}
+
+
+
+#address {
+	width: 100%;
+	line-height: 0em;	
+	font-size: 1.4em;
+	font-weight: inherit;
+	text-align: center;
+	margin-top: 0em;
+	padding-top: 0.4em;
+	padding-bottom: 1.5em;
+	padding-right: 1em;
+	padding-left: 0em;	
+	
+}
+
+
+/* stylesheet resort */
+
+.lista-pulita ul {
+	list-style-type: none;
+	margin-left: -4em;
+	margin-bottom: 1em;
+}
+
+dt {
+	color:#4169E1;
+	font-weight: bold;
+}
+
+
+/* form */
+
+#insert {
+	width: 65.2%;
+	padding-top: 1em;
+	padding-left: 5em;
+	padding-right: 1em; 
+	padding-bottom: 3em;
+	margin-top: 3.7em;
+	margin-left: 19.8em;
+	margin-right: 1em;
+	background-color:  #DDF8F0;
+	font-size: 1.3em;
+}	
+
+
+#insert h2 {
+	margin: 0.5em 3em 1em;
+	
+}
+
+#insert form p {
+	margin: 1em 5em;
+}
+
+
+.campo {
+	margin-right: 2em;
+	margin-bottom: 1em;
+}
+
+
+#insert h3 {
+	text-align: center;
+}
+
+
+
+form {
+	width: 43em;
+	padding: 0.3em 1em 1em 1em;
+	background-color: white;
+}
+
+#insert form p {
+	font-weight: bold;
+}
+
+
+form legend {
+	font-size: 1.5em;
+}
+
+form label {
+	font-weight:bold; 
+}
+
+form label[for=nome] {
+	padding-right: 12em;
+}
+
+
+form label[for=CAP] {
+	padding-right: 3em;
+}
+
+
+form li {
+	list-style-type: none;
+}
+
+#radio_1 {
+	margin-left: 1.5em;
+	float:left; 
+}
+
+
+form #radio_1 p {
+	margin-left: 3.5em;
+} 
+
+
+#radio_2 {
+	margin-left: -1em;
+	float: left;
+}
+
+
+form #radio_2 p {
+	margin-left: 3.5em;
+} 
+
+
+#radio_3 {
+	margin-left: 25em;
+}
+
+
+form #radio_3 p {
+	margin-left: 3.5em;
+} 
+
