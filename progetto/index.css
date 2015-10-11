@@ -521,3 +521,10 @@ form #radio_3 p {
 	margin-left: 3.5em;
 } 
 
+
+/* Dimensioni della textarea del D.Lgs 196/2003 */
+#Lgs {
+	height: 10em;
+	width: 30em;
+}
+
