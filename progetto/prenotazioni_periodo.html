@@ -77,15 +77,15 @@
 					
 					<div id="insert">
 						<h2>Scheda prenotazione</h2>	
-						<form action="">
-							<fieldset>
+						<form id="date" action="prenotazioni_anagrafica.html" method="get" onsubmit="date()">
+ 							<fieldset>
 								<legend>Scelta periodo</legend>
 								<p><label for="inizio">Desidero arrivare il</label></p>
 								<p><input class="campo" type="text" name="inizio" id="inizio" size="10" /></p>
 								<p><label for="fine">e partire il</label></p>					
 								<p><input class="campo" type="text" name="fine" id="fine" size="10" /></p>
 								<p><button onclick="indietro()">Indietro</button>                   <!-- Chiama un codice javascript -->
-									<button onclick="avanti_su_anagrafica()">Continua</button>
+									<input type="submit" value="Continua" />
 									<input type="reset" value="Cancella" /></p>
 							</fieldset>
 						</form>				
