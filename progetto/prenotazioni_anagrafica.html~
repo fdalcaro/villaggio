@@ -78,7 +78,7 @@
 					
 					<div id="insert">
 						<h2>Scheda prenotazione</h2>	
-						<form action="">
+						<form id="anagrafica" action="scheda_riepilogo.html" method="get" onsubmit=false>
 							<fieldset>
 								<legend>Dati anagrafici</legend>
 								<p><label for="nome">Nome</label>
@@ -100,7 +100,7 @@
 sia per comunicarle informazioni sui servizi e sulle nuove offerte.
 Gli stessi, in forma anonima, saranno trattati per l’elaborazione di statistiche e ricerche di mercato.
 
-Per lo svolgimento di talune attività Eurotecna Srl si potrà rivolgere a Società esterne sempre per le finalità sopra descritte. Lei può comunque, ai sensi dell’art. 13 del D.Lgs. 196/03 e successive modifiche, chiedere liberamente l’accesso, l’aggiornamento e la cancellazione dei suoi dati personali e/o esercitare gratuitamente il diritto di opporsi all’invio di informazioni e nuove offerte, scrivendo a:
+Per lo svolgimento di talune attività Villaggio del Brenta Srl si potrà rivolgere a Società esterne sempre per le finalità sopra descritte. Lei può comunque, ai sensi dell’art. 13 del D.Lgs. 196/03 e successive modifiche, chiedere liberamente l’accesso, l’aggiornamento e la cancellazione dei suoi dati personali e/o esercitare gratuitamente il diritto di opporsi all’invio di informazioni e nuove offerte, scrivendo a:
 
 Villaggio del Brenta Srl
 Via Fiume, 35 
@@ -110,7 +110,7 @@ Consenso
 Ai sensi del D.Lgs. 196/2003 e successive modifiche, dichiaro di avere preso visione dell’informativa e dell’art.13 e acconsento al trattamento dei miei dati personali, nei limiti e per le finalità indicati nella menzionata informativa.</textarea></p>
 								<p><input type="checkbox" name="DLgs" id="DLgs" value="accetto" />
 									<label for="DLgs">Acconsento</label></p>
-								<p><button type="submit" onclick="indietro()">Indietro</button> 
+								<p><input type="button" value="Indietro" onclick="indietro()" /> 
 									<input type="submit" name="prenota" value="Prenota" />
 									<input type="reset" value="Cancella" /></p>
 							</fieldset>

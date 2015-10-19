@@ -318,9 +318,9 @@ tfoot p {
 	height: 0em;
 	margin-left: -11.5em;
 	list-style-type: none;
-	margin-bottom: -1em;
+	margin-bottom: 0;
 	color: #4169E1;
-	min-width: 60em;
+	min-width: 0em;
 }
 
 
