@@ -69,7 +69,7 @@
 	
 				<div id="insert">
 					<h2>Scheda prenotazione</h2>	
-					<form id="scelta_struttura" action="" method="get" onsubmit="return controllo_strutture()">
+					<form id="scelta_struttura" action="prenotazioni_periodo.html" method="get" onsubmit="return controllo_strutture()">
 						<fieldset>
 							<legend>Scelta struttura</legend>
 							<div id="radio_1">

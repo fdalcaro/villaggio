@@ -5,6 +5,8 @@
 var struttura;	//Struttura scelta.
 var inizio;		//Data di arrivo al villaggio.
 var fine;		//Data di partenza dal villaggio.
+var e_mail;		//Indirizzi di posta elettronica.
+var cap;		//Codice avviamento postale.
 
 function controllo_strutture() {
 
@@ -90,6 +92,8 @@ function date() {
 
 	if(i && f)  {
 //		alert("Tutto OK! Le date inserite " + inizio + " " + fine + " sono corrette"); /* decommentare la riga per controllare */
+
+
 		c = true;
 	} else if(!i && f) {
 		alert("Controlla! La data di inizio " + inizio + " è errata");
@@ -163,17 +167,21 @@ function da_a(inizio, fine) {
 
 
 
-/*
 
-//Controllare questa funzione perché se la attivo lo script
-//non funziona più.
+
 
 //Passo alla funzione l'indirizzo e-mail e il CAP e se entrambi
-//corretti mi restituisce true, altrimenti false.
+//sono corretti mi restituisce true, altrimenti false.
 
-function anagrafica(document.getElementsByName("e_mail"), document.getElementsByName("cap")) {
+function anagrafica() {
+	e_mail = document.getElementsByName("e_mail")[0].value;
+	alert("e-mail vale: " + e_mail);
+	cap = document.getElementsByName("cap")[0].value;
+	alert(cap);
 	var t_e = e_m(e_mail);
+	alert("TEST e-mail " + t_e);
 	var t_c = c_cap(cap);
+	alert("TEST cap " + t_c);
 	var c;
 	
 	if(t_e && t_c) {
@@ -192,8 +200,12 @@ function anagrafica(document.getElementsByName("e_mail"), document.getElementsBy
 	return c;
 }
 
+//Il controllo e-mail ritorna true anche se il suffisso (it, com,
+//org, ...) ha più di 4 caratteri. Stesso bug se il cap ha più di
+//5 numeri.
 
-*/
+// *************************************************************
+
 
 
 
@@ -214,11 +226,15 @@ function controllo_data(data) {
 	var patt = new RegExp("[0-3][0-9]/[0-1][0-2]/20[0-9][0-9]"); //Creo il pattern per la verifica preliminare del formato
 	var t = patt.test(data);
 //	alert(data); /* decommetare la riga per controllare */
+
+
+
 	if(t) {
 		c = true;	
 	}
 	else {
 //		alert("Il formano non è corretto"); /* decommentare la riga per controllare */
+
 		c =  false;
 	}
 	
@@ -232,6 +248,8 @@ function controllo_data(data) {
 		((mese == 4 || mese == 6 || mese == 9 || mese == 11) && (giorno < 1 || giorno > 30)) || ((mese == 2) && (giorno < 1 || giorno > 29)))
 	{
 //		alert("Controlla il giorno"); /* decommentare la riga per controllare */
+
+
 		d = false;
 	} else {
 		d = true;
@@ -251,14 +269,35 @@ function controllo_data(data) {
 // **************************************************************
 
 
+//Leggo i dati passati alla pagina attravero il link
+
+function getFromUrl() {
+	var url;
+	var s0;
+	var s1;
+	var s2;
+
+	url = document.location.href;
+	s0 = url.split("?");
+	s1 = s0[1].split("&");
+	for(var i = 0; i < s1.length; i++) {
+		s2 = s1[i].split("=");
+		alert(s2);
+	}
+	return s2;
+}
+
+
 
 //Passo alla funzione una stringa contenente un indirizzo di
 //posta eletronica e ritorna true se l'indirizzo è costruito
 //correttamente, altrimenti ritorna falso.
 
 function e_m(mail) {
-	var patt = new RegExp("[a-zA-Z0-9]+@[a-zA-Z0-9]+.+[a-zA-Z]{2-4}");
+	alert("mail = " + mail);
+	var patt = new RegExp("[a-zA-Z0-9]+@[a-zA-Z0-9]+\\.[a-zA-Z]{2,4}");
 	var t = patt.test(mail);
+	alert("il valore di t è " + t);
 	return t;
 }
 
@@ -269,13 +308,11 @@ function e_m(mail) {
 //Passo alla funziona una stringa contenenenete il CAP e ritorna
 //true se la stringa contiene 5 cifre, altrimenti ritorna false.
 
-function c_cap(cap) {
-	var patt = new RegExp("[1-9]{5}");
-	var t = patt.test(cap);
+function c_cap(n_cap) {
+	var patt = new RegExp("[0-9]{5}");
+	var t = patt.test(n_cap);
 	return t;
 }
 
 //****************************************************************
-
-
 

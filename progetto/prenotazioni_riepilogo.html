@@ -77,10 +77,10 @@
 
 					
 					<div id="insert">
-						<h2>Scheda prenotazione</h2>	
-						<form id="anagrafica" action="../cgi-bin/anagrafica.pl" method="get" onsubmit="return anagrafica()">
+						<h2>Scheda riepilogo</h2>	
+						<form id="riepilogo" action="prenotazioni_uscita.html" method="get" onsubmit="return anagrafica()">
 							<fieldset>
-								<legend>Dati anagrafici</legend>
+								<legend>Riepilogo</legend>
 								<p><label for="nome">Nome</label>
 									<label for="cognome">Cognome</label></p>
 								<p><input class="campo" type="text" name="nome" id="nome" size="20" />
@@ -111,7 +111,7 @@ Ai sensi del D.Lgs. 196/2003 e successive modifiche, dichiaro di avere preso vis
 								<p><input type="checkbox" name="DLgs" id="DLgs" />
 									<label for="DLgs">Acconsento</label></p>
 								<p><input type="button" value="Indietro" onclick="indietro()" /> 
-									<input type="submit" name="continua" value="Continua" />
+									<input type="submit" name="prenota" value="Prenota" />
 									<input type="reset" value="Cancella" /></p>
 							</fieldset>
 						</form>				
