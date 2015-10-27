@@ -10,7 +10,7 @@ print "<body>";
 
 $richiesta=$ENV{'QUERY_STRING'};
 
-print "\n$richiesta\n";
+#print "\n$richiesta\n";	#Decommentare per controllare i valori
 
 @coppie=split(/&/, $richiesta);					#Suddivido in righe di coppie "nome=valore"
 
@@ -21,12 +21,14 @@ foreach $coppia (@coppie) {						#Itero su @coppie
 	$i++;
 	($nome[$i], $valore[$i]) = split (/=/, $coppia);	#Divido $coppia e la assegno a 2 scalari
 	
-	print "<p>$nome[$i]  $valore[$i]</p>";
+#	print "<p>$nome[$i]  $valore[$i]</p>";		#Decommentare per controllare i valori
 }
-
-if ($valore[8] eq Continua) {
+if ($valore[9] eq "Continua") {
 	print "PRENOTA";
-} elsif ($valore[8] eq Indietro) {
+	$url="../riepilogo.html";
+	$c -> redirect($url);
+	$c -> detach();
+} elsif ($valore[9] eq "Indietro") {
 	$url="../prenotazioni.html";
 #	$t=0;
 #	print "<meta http-equiv=refresh content=\"$t URL=$url\">\n";
@@ -34,6 +36,5 @@ if ($valore[8] eq Continua) {
  $c -> redirect($url);
  $c -> detach();
 } 
-
 print "</body>\n";
 print "</html>\n";

@@ -1,0 +1,14 @@
+<categoria>
+	<amministratore>
+		<cognome>Dal Carobbo</cognome>
+		<nome>Fausto</nome>
+		<nickname>fdalcaro</nickname>
+		<password>azsxdc</password>
+	</amministratore>
+	<amministratore>
+		<cognome>Rossi</cognome>
+		<nome>Giorgio</nome>
+		<nickname>rosgio</nickname>
+		<password>qawsed</password>
+	</amministratore>
+</categoria>
