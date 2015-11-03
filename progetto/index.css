@@ -3,7 +3,7 @@
 /* Definizione di body */
 
 body {
-	width: 1000px;;
+	width: 1000px;
 	min-width: 50em; 
 	margin: 3em auto;
 	padding: 0em;
@@ -13,16 +13,12 @@ body {
 	font-weight: lighter;
 }
 
-li a:hover {
-	color: white;
-	background-color: blue;
-	}
 
 li a {
 	text-decoration: none;
 }
 
-strong {
+strong {									/* EVIDENZIA LE LETTERE PER L'ACCESSKEY */
 	font-weight: bold;
 	font-size: 1em;
 	text-decoration:underline;  
@@ -116,26 +112,48 @@ font-size: 1em;
 	border-color: #DDF8F0;
 	list-style-position: inside;
 	text-align: left;
-/*	text-shadow: 2px 2px 2px #888;  */
 	line-height: 0em;
-	margin-left: -1.25em;
+	margin-left: -2.25em;
 	margin-right: 1em;
 	font-size: 1.2em;
 }
 
+.selezione a {
+	
+}
+
+.selezione a:hover {
+	color: #000;
+	background-color: #FFF;
+}
+
+
+.sub-selezione a {
+	margin-left: -1.1em;
+	padding-left: 1.1em;
+	padding-right: 2em;
+}
+	
+.sub-selezione a:hover {
+	color: #000;
+	background-color: #FFF;
+}	
+	
 
 .sub-navigator {
 	line-height: 0em;
-	margin-left: -1em;
+	margin-left: 1.25em;
 	font-size: 1em;
 }
 
+.sub-navigator li {
+	margin-left: 2em;
+}
 
 .sub-navigator li {
 	padding-left: 1em;
 	margin-top: -1.5em;
 }
-
 
 /* main */
 
@@ -298,9 +316,7 @@ tfoot p {
  float: left;
  list-style-type: none;
  padding-top: 1em;
- height: 2.825em;
 }
-
 
 
 .horizon-navigator {
@@ -312,6 +328,12 @@ tfoot p {
 	color: #4169E1;
 	min-width: 80em;
 }
+
+.secondo:hover {
+	color: #000;
+	background-color: #FFF;
+	}
+
 
 
 .sub-horizon {
@@ -345,8 +367,6 @@ tfoot p {
 	margin-top: 2.5em;
 	margin-left: 1em;
 }
-
-
 
 
 #sub-horizon-servizi {
