@@ -78,7 +78,7 @@
 					
 					<div id="insert">
 						<h2>Scheda prenotazione</h2>	
-						<form id="anagrafica" action="../cgi-bin/anagrafica.pl" method="get" onsubmit="return anagrafica()">
+						<form id="anagrafica" action="cgi-bin/anagrafica.pl" method="get" onsubmit="return anagrafica()">
 							<fieldset>
 								<legend>Dati anagrafici</legend>
 								<p><label for="nome">Nome</label>

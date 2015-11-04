@@ -62,8 +62,6 @@ font-size: 1em;
 }
 
 #percorso {
-/*	width: 960px; */
-/*	min-width: 75.9em;*/
 	height: 1em;
 	margin-top: 1em;
 	padding-top: 0;
@@ -73,14 +71,9 @@ font-size: 1em;
 	font-weight: normal;
 	color: #4169E1;
 	background-color: #8DBEAF;
-/*	clear: left; */ 
 }
 
-/*
-#percorso h4 {
-	font-size: 1.2em;
-}
-*/
+
 
 /* navigator */
 
@@ -95,9 +88,9 @@ font-size: 1em;
 
 #navigator ul {
 	list-style-type: none;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 0.5%;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
 }
 
 
@@ -112,48 +105,45 @@ font-size: 1em;
 	border-color: #DDF8F0;
 	list-style-position: inside;
 	text-align: left;
-	line-height: 0em;
-	margin-left: -2.25em;
+	line-height: 0;
+	margin-left: -1.25em;
 	margin-right: 1em;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 1em;
 	font-size: 1.2em;
 }
 
-.selezione a {
-	
-}
-
-.selezione a:hover {
+#navigator li.selezione:hover {
 	color: #000;
 	background-color: #FFF;
 }
 
-
-.sub-selezione a {
-	margin-left: -1.1em;
-	padding-left: 1.1em;
-	padding-right: 2em;
-}
 	
-.sub-selezione a:hover {
-	color: #000;
-	background-color: #FFF;
+#navigator li.sub-selezione {
+	margin-left: -2.85em;
+	margin-right: -0.1em;
+	padding-right: 0;
+	padding-left: 2.5em;
+	
 }	
 	
 
+#navigator li.sub-selezione:hover {
+	color: #000;
+	background-color: #FFF;
+}
+
 .sub-navigator {
 	line-height: 0em;
-	margin-left: 1.25em;
 	font-size: 1em;
 }
 
-.sub-navigator li {
-	margin-left: 2em;
+ul.sub-navigator {
+	padding-left: 2.2em;
 }
 
-.sub-navigator li {
-	padding-left: 1em;
-	margin-top: -1.5em;
-}
+
 
 /* main */
 
