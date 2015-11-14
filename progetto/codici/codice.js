@@ -85,15 +85,13 @@ function date() {
 	fine = document.getElementsByName("fine")[0].value;
 	var i = controllo_data(inizio);
 	var f = controllo_data(fine);
-	var c;
+	var c = false;
 //	var d = da_a(inizio, fine);
 
 //	alert(d);
 
 	if(i && f)  {
 //		alert("Tutto OK! Le date inserite " + inizio + " " + fine + " sono corrette"); /* decommentare la riga per controllare */
-
-
 		c = true;
 	} else if(!i && f) {
 		alert("Controlla! La data di inizio " + inizio + " è errata");
@@ -103,12 +101,11 @@ function date() {
 		alert("Controlla! La data di fine " + fine + " è errata");
 		c = false;
 	}
-	else if(!i && !f) {
+	else {
 		alert("Le date " + inizo + " e " + fine + " sono errate");
 		c = false;
 	}
-	else alert("Qualcosa non va!")
-
+	alert("sono arrivato qui");
 	return c;	
 }
 
