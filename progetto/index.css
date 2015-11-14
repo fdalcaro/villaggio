@@ -83,7 +83,6 @@ font-size: 1em;
 	padding: 0 ;
 	float: left;
 	font-size: 1.3em;
-/*	background-color: yellowgreen;  */
 }
 
 
@@ -153,11 +152,8 @@ ul.sub-navigator {
 	background-color: #A7D7C8;
 	border-color: #A7D7C8;
 	padding: 10px 0px;
-/*	width: 100%; */
 	min-height: 50em;
-/*	min-width: 100em; */
-/* margin-left: auto;
-	margin-right: auto; */
+
 }
 
 
