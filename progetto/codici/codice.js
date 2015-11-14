@@ -92,6 +92,10 @@ function date() {
 
 	if(i && f)  {
 //		alert("Tutto OK! Le date inserite " + inizio + " " + fine + " sono corrette"); /* decommentare la riga per controllare */
+<<<<<<< HEAD
+=======
+
+>>>>>>> da398902d65ac28899bacc81a5f559db84072084
 		c = true;
 	} else if(!i && f) {
 		alert("Controlla! La data di inizio " + inizio + " è errata");
@@ -101,11 +105,17 @@ function date() {
 		alert("Controlla! La data di fine " + fine + " è errata");
 		c = false;
 	}
+<<<<<<< HEAD
 	else {
 		alert("Le date " + inizo + " e " + fine + " sono errate");
 		c = false;
 	}
 	alert("sono arrivato qui");
+=======
+	else alert("Le date " + inizo + " e " + fine + " sono errate");
+//		c = false;
+
+>>>>>>> da398902d65ac28899bacc81a5f559db84072084
 	return c;	
 }
 

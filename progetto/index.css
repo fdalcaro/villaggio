@@ -1,4 +1,4 @@
-/* @charset "UTF-8"; */
+@charset "UTF-8";
 
 /* Definizione di body */
 
@@ -83,6 +83,10 @@ font-size: 1em;
 	padding: 0 ;
 	float: left;
 	font-size: 1.3em;
+<<<<<<< HEAD
+=======
+/*	background-color: yellowgreen;  */
+>>>>>>> da398902d65ac28899bacc81a5f559db84072084
 }
 
 
@@ -144,7 +148,10 @@ ul.sub-navigator {
 
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> da398902d65ac28899bacc81a5f559db84072084
 /* main */
 
 
@@ -153,7 +160,10 @@ ul.sub-navigator {
 	border-color: #A7D7C8;
 	padding: 10px 0px;
 	min-height: 50em;
+<<<<<<< HEAD
 
+=======
+>>>>>>> da398902d65ac28899bacc81a5f559db84072084
 }
 
 
@@ -174,7 +184,6 @@ ul.sub-navigator {
 
 #testo {
 	width: 70%; 
-/*	min-width: 80em; */
 	margin-top: 4.8em;
 	padding-bottom: 3em;
 	padding-top: 0.5em;
@@ -200,7 +209,6 @@ ul.sub-navigator {
 
 .img_strutture img {
 	width: 25%;
-/*	height: 10em; */
 	margin: 0em 4em 3em;
 }
 
