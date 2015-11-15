@@ -35,18 +35,18 @@
 						<ul class="sub-navigator">
 	            	   <li class="sub-selezione"><a href="resort.html" tabindex="3" accesskey="a"><strong>a</strong>lloggi</a></li>
 	              		<li class="sub-selezione"><a href="bungalow.html" tabindex="4" accesskey="b" xml:lang="en"><strong>b</strong>ungalow</a></li>
-	               	<li class="sub-selezione"><a href="campeggio.html" tabindex="5" accesskey="c"><strong>c</strong>ampeggio</a></li>
+	               	<li class="sub-selezione"><h4><a href="campeggio.html" tabindex="5" accesskey="c"><strong>c</strong>ampeggio</a></h4></li>
 		        		</ul>
 		         </li> 
 					<li class="selezione"><a href="servizi.html" tabindex="6" accesskey="v">Ser<strong>v</strong>izi</a></li>
 						<li>
 						 	<ul class="sub-navigator">
-						 		<li class="sub-selezione"><a href="piscina.html" tabindex="7" accesskey="p"><strong>p</strong>iscina</a></li>
-						 		<li class="sub-selezione"><a href="solarium.html" tabindex="8" accesskey="o" xml:lang="la">s<strong>o</strong>larium</a></li>
-						 		<li class="sub-selezione"><a href="palestra.html" tabindex="9" accesskey="l">pa<strong>l</strong>estra</a></li>
-						 		<li class="sub-selezione"><a href="sauna.html" tabindex="10" accesskey="u">sa<strong>u</strong>na</a></li>
-								<li class="sub-selezione"><a href="ristorante.html" tabindex="11" accesskey="r"><strong>r</strong>istorante</a></li>
-			               <li class="sub-selezione"><a href="market.html" tabindex="12" accesskey="m"><span xml:lang="en"><strong>m</strong>arket</span></a></li>
+						 		<li class="sub-selezione"><h4><a href="piscina.html" tabindex="7" accesskey="p"><strong>p</strong>iscina</a></h4></li>
+						 		<li class="sub-selezione"><h4><a href="solarium.html" tabindex="8" accesskey="o" xml:lang="la">s<strong>o</strong>larium</a></h4></li>
+						 		<li class="sub-selezione"><h4><a href="palestra.html" tabindex="9" accesskey="l">pa<strong>l</strong>estra</a></h4></li>
+						 		<li class="sub-selezione"><h4><a href="sauna.html" tabindex="10" accesskey="u">sa<strong>u</strong>na</a></h4></li>
+								<li class="sub-selezione"><h4><a href="ristorante.html" tabindex="11" accesskey="r"><strong>r</strong>istorante</a></h4></li>
+			               <li class="sub-selezione"><h4><a href="market.html" tabindex="12" accesskey="m"><span xml:lang="en"><strong>m</strong>arket</span></a></h4></li>
 						 	</ul>
 					 	</li>
 					 <li class="selezione"><a href="tariffe.html" tabindex="13" accesskey="t"><strong>T</strong>ariffe</a></li>
@@ -60,11 +60,11 @@
 					
 	 			<div id="horizon">
 					<ul class="horizon-navigator">
-						<li id="primo">Home</li>
-						<li class="secondo"><a href="strutture.html" tabindex="16">Strutture</a></li>						
-						<li class="secondo"><a href="servizi.html" tabindex="17">Servizi</a></li>
-						<li class="secondo"><a href="tariffe.html" tabindex="18">Tariffe</a></li>
-						<li class="secondo"><a href="prenotazioni.html" tabindex="19">Prenotazioni</a></li>
+						<li id="primo"><h4>Home</h4></li>
+						<li class="secondo"><h4><a href="strutture.html" tabindex="16">Strutture</a></h4></li>						
+						<li class="secondo"><h4><a href="servizi.html" tabindex="17">Servizi</a></h4></li>
+						<li class="secondo"><h4><a href="tariffe.html" tabindex="18">Tariffe</a></h4></li>
+						<li class="secondo"><h4><a href="prenotazioni.html" tabindex="19">Prenotazioni</a></h4></li>
 					</ul>
 				</div>
 				
@@ -72,26 +72,26 @@
 					<div id="testo">
 						<img src="immagini/ingresso1_sm.jpg" alt="fotografia dell'ingresso del villaggio" />   
 						<h2>Benvenuti nel nostro villaggio</h2>
-						<p>Il <span xml:lang="en">Camping</span> Riviera del Brenta &egrave; situato sulla sponda del fiume Brenta in Comune di Acquajona, tra Padova e Trepiazze.		
+						<h4>Il <span xml:lang="en">Camping</span> Riviera del Brenta &egrave; situato sulla sponda del fiume Brenta in Comune di Acquajona, tra Padova e Trepiazze.		
 							Grazie alla sua posizione il campeggio offre possibilit&agrave; di soggiorni e vacanze sia per i giovani, grazie alla vicinanza di Padova,
-					 		che per le famiglie che cercano la tranquillit&agrave; tipica del campeggio.</p>
-						<p>Il <span xml:lang="en">Camping</span> Riviera del Brenta &egrave; un&apos;ottimo punto di partenza per chi desidera abbinare la visita di Padova
-							ad una vacanza all&apos;insegna del <span xml:lang="en">relax</span> e della tranquillit&agrave;. Dal nostro campeggio si pu&ograve; prendere il Burchiello e navigare attraverso 
-							stupende ville Palladiane e oasi naturalistiche fino a raggiungere Venezia.</p>
-						<p>Il <span xml:lang="en">camping</span> Riviera del Brenta &egrave; immerso in un parco di pini marittimi e salici e si affaccia su un&apos;ampia spiaggia ad uso dei clienti 
+					 		che per le famiglie che cercano la tranquillit&agrave; tipica del campeggio.</h4>
+						<h4>Il <span xml:lang="en">Camping</span> Riviera del Brenta &egrave; un&apos;ottimo punto di partenza per chi desidera abbinare la visita di Padova
+							ad una vacanza all’insegna del <span xml:lang="en">relax</span> e della tranquillit&agrave;. Dal nostro campeggio si può prendere il Burchiello e navigare attraverso 
+							stupende ville Palladiane e oasi naturalistiche fino a raggiungere Venezia.</h4>
+						<h4>Il <span xml:lang="en">camping</span> Riviera del Brenta &egrave; immerso in un parco di pini marittimi e salici e si affaccia su un’ampia spiaggia ad uso dei clienti 
 							del campeggio e del villaggio. Il fiume che costeggia il campeggio, tranquillo e pulito, dal 2010 ha conquistato il riconoscimento della Bandiera verde, 
 							caratteristica ideale per chi ama le vacanze nella natura, soprattutto per le famiglie con bambini.
-							Il <span xml:lang="en">Camping</span> Riviera del Brenta &egrave; suddiviso in una zona campeggio e una zona villaggio.</p>
-						<p>La zona villaggio dispone sia di moderne case mobili e <span xml:lang="en">bungalow</span> con <abbr title="televisore">TV</abbr> satellitare e aria condizionata, che dei classici caravan, 
-							Il <span xml:lang="en">Camping</span> Riviera del Brenta &egrave; suddiviso in una zona campeggio e una zona villaggio.</p>
-						<p>La zona villaggio dispone sia di moderne case mobili e <span xml:lang="en">bungalow</span> con <abbr title="televisore">TV</abbr> satellitare e aria condizionata, che dei classici caravan 
+							Il <span xml:lang="en">Camping</span> Riviera del Brenta &egrave; suddiviso in una zona campeggio e una zona villaggio.</h4>
+						<h4>La zona villaggio dispone sia di moderne case mobili e <span xml:lang="en">bungalow</span> con <abbr title="televisore">TV</abbr> satellitare e aria condizionata, che dei classici caravan, 
+							Il <span xml:lang="en">Camping</span> Riviera del Brenta &egrave; suddiviso in una zona campeggio e una zona villaggio.</h4>
+						<h4>La zona villaggio dispone sia di moderne case mobili e <span xml:lang="en">bungalow</span> con <abbr title="televisore">TV satellitare e aria condizionata, che dei classici caravan 
 							e maxi caravan.
 							Nella zona campeggio sono disponibili ampie piazzole, molte delle quali affacciate verso il fiume, dotate di carico e scarico
 							acqua e di energia elettrica ed alcune con presa per il <abbr title="televisore">TV</abbr> satellitare.
-							Numerose le attrattive all&apos;interno del <span xml:lang="en">camping</span> Riviera del Brenta: piscine per grandi e bambini, vasca con idromassaggio, 
-							ristorante e bar, <span xml:lang="en">market</span> e bazar, parco giochi attrezzato, campo da <span xml:lang="en">beach volley</span>, ping pong e minigolf.
+							Numerose le attrattive all’interno del <span xml:lang="en">camping</span> Riviera del Brenta: piscine per grandi e bambini, vasca con idromassaggio, 
+							ristorante e bar, market e bazar, parco giochi attrezzato, campo da <span xml:lang="en">beach volley</span>, ping pong e minigolf.
 							Il <span xml:lang="en">team</span> di animazione del <span xml:lang="en">camping</span> Riviera del Brenta &egrave; a disposizione degli ospiti, grandi e piccoli, per trascorrere meravigliose giornate 
-							all&apos;insegna del divertimento con giochi, intrattenimenti, attivit&agrave; sia sportive, <span xml:lang="en">baby dance</span>, miniclub e tanto altro.</p>
+							all’insegna del divertimento con giochi, intrattenimenti, attivit&agrave; sia sportive, <span xml:lang="en">baby dance</span>, miniclub e tanto altro.</h4>
 					</div> <!-- end testo -->					
 				</div> <!-- end main -->
 				
@@ -107,7 +107,7 @@
 					</div> <!-- end validator -->
 					
 					<div id="address">
-						<p>Villaggio del Brenta  -  Via Fiume 35  -  36555 Acquajona (VI)</p>	
+						<h4>Villaggio del Brenta  -  Via Fiume 35  -  36555 Acquajona (VI)</h4>	
 					</div> <!-- end address -->				
 					
 				</div> <!-- end footer -->

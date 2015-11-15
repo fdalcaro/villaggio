@@ -61,6 +61,9 @@ font-size: 1em;
 	font-size: 1.8em;
 }
 
+
+/* percorso */
+
 #percorso {
 	height: 1em;
 	margin-top: 1em;
@@ -74,8 +77,14 @@ font-size: 1em;
 }
 
 
+#percorso p {
+	font-size: 1em;
+	font-weight: bold;
+}
 
-/* navigator */
+
+
+/* barra di navigazione verticale */
 
  
 #navigator {
@@ -102,13 +111,10 @@ ul#vertical-navigator {
 
 
 li.selezione {
-	margin-left: -1em;
-	margin-right: -1em;
+	margin: 0 -0.9em;
 	padding: 0.5em 0.5em;
-}
-
-li.selezione h3 {
-	margin: 0 0;	
+	font-size: 1.1em;
+	font-weight: bold;
 }
 
 
@@ -121,12 +127,10 @@ li.selezione:hover {
 li.sub-selezione {
 	padding: 0.5em 2em;
 	margin: 0 -2em;
+	font-size: 1em;
+	font-weight: bold;
 }
 
-
-li.sub-selezione h4 {
-	margin: 0 0;
-}
 
 
 li.sub-selezione:hover {
@@ -164,9 +168,9 @@ ul.sub-navigator {
 }
 
 
-.main h4 {
-	margin: 0 0 1em;
-	font-size: 1.3em;
+.main p {
+	margin: 0 2.5em 1em 2em;
+	font-size: 1.4em;
 	text-indent: 1.5em;
 }
 
@@ -202,28 +206,15 @@ ul.sub-navigator {
 }
 
 
-#testo h4 {
+#testo h3 {
 padding: 0em 4em 0em 3em;
 font-weight: lighter;
 font-size: 1.5em;
 }
 
 
-#primo {
-	margin-left: 1em;
-	border-radius: 1em 1em 0em 0em;
-	background-color: #DDF8F0;
-	padding-right: 1.8em;
-}
 
 
-.secondo {
-	border-color: #A7D7C8;
-	background-color: #8DBEAF;
-	border-radius: 1em 1em 0em 0em;
-	padding-right: 1.8em;
-	margin-left: 1em;
-}
 
 
 /* tabella */
@@ -272,10 +263,9 @@ tfoot p {
 }
 
 
-
 #nota {
 	margin-top: 3%;
-	padding-left: 1.5%;
+	padding-left: 0;
 	padding-top: 0;
 	padding-bottom: 0.5em;
 	margin-left: 15%;
@@ -283,12 +273,14 @@ tfoot p {
 	background-color: white;
 	border-color: black;
 	border: solid thin;
-	font-size: 1.3em;
+	font-size: 0.9em;
 	font-style: italic;
 }
+
+
 #nota p {
 	height: 0.3em;
-	margin-top: 1%;
+	margin: 1% 0 3% 0;
 }
 
 
@@ -296,6 +288,10 @@ tfoot p {
 
 /* barra navigazione orizzontale */
 
+
+#horizon {
+	margin-left:20.7em;
+}
 
 .horizon-navigator li {
  float: left;
@@ -305,10 +301,8 @@ tfoot p {
 
 
 ul.horizon-navigator {
-	height: 0em;
-	padding-left: 2em;
 	padding-right: 0;
-	margin-left: 22.7em;
+	margin-left: 0;
 	margin-right: -3em; 
 	color: #4169E1;
 	min-width: 80em;
@@ -322,12 +316,13 @@ ul.horizon-navigator {
 
 
 .sub-horizon {
-	height: 0em;
-	margin-left: -11.5em;
+	margin-left: -8em;
 	list-style-type: none;
 	margin-bottom: 0;
 	color: #4169E1;
 	min-width: 0em;
+	font-size: 1.2em;
+	font-weight: bold;
 }
 
 
@@ -349,14 +344,14 @@ ul.horizon-navigator {
 
 
 #sub-horizon-strutture li {
-	margin-top: 2.5em;
+	margin-top: 2em;
 	margin-left: 1em;
 }
 
 
 #sub-horizon-servizi {
 	height: 0em;
-	margin-left: -20.5em;
+	margin-left: -19.5em;
 	list-style-type: none;
 	margin-bottom: -1em;
 	color: #4169E1;
@@ -365,8 +360,40 @@ ul.horizon-navigator {
 
 
 #sub-horizon-servizi li {
-	margin-top: 2.5em;
+	margin-top: 2em;
 	margin-left: 1em;
+}
+
+
+#primo {
+	margin-left: 0.8em;
+	border-radius: 1em 1em 0em 0em;
+	background-color: #DDF8F0;
+	padding-right: 1.8em;
+}
+
+
+li#primo {
+	font-size: 1.3em;
+	font-weight: bold;
+	padding-left: 1.3em;
+	padding-bottom: 0.8em;
+}
+
+.secondo {
+	border-color: #A7D7C8;
+	background-color: #8DBEAF;
+	border-radius: 1em 1em 0em 0em;
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-bottom: 0.8em;
+	margin-left: 0.8em;
+}
+
+li.secondo {
+	font-size: 1.3em;
+	font-weight: bold;
+	
 }
 
 
@@ -394,12 +421,11 @@ ul.horizon-navigator {
 }
 
 
-
 #address {
 	width: 100%;
 	line-height: 0em;	
 	font-size: 1.4em;
-	font-weight: inherit;
+	font-weight: bold;
 	text-align: center;
 	margin-top: 0em;
 	padding-top: 0.4em;
@@ -410,17 +436,24 @@ ul.horizon-navigator {
 }
 
 
+
 /* stylesheet resort */
 
-.lista-pulita ul {
+#lista-pulita ul {
 	list-style-type: none;
-	margin-left: -4em;
-	margin-bottom: 1em;
+	margin-left: 1em;
+	margin-bottom: 2em;
 }
 
 dt {
+	margin-left: 7em;
 	color:#4169E1;
+	font-size: 1.3em;
 	font-weight: bold;
+}
+
+dd {
+	font-size: 1.2em;
 }
 
 
@@ -533,3 +566,9 @@ form #radio_3 p {
 	width: 30em;
 }
 
+
+img.img-validatori {
+	border: 0;
+	width: 88px;
+	height: 31px;
+}
