@@ -12,7 +12,7 @@ function controllo_strutture() {
 
 	switch(true) {
 		case document.getElementsByName("struttura")[0].checked:
-			struttura = "pisani"
+			struttura = "pisani";
 			return true;
 			break;
 		case document.getElementsByName("struttura")[1].checked:
