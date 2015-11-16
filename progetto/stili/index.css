@@ -155,8 +155,9 @@ ul.sub-navigator {
 .main {
 	background-color: #A7D7C8;
 	border-color: #A7D7C8;
-	padding: 10px 0px;
+	padding: 1em 0;
 	min-height: 50em;
+
 }
 
 
@@ -182,8 +183,9 @@ ul.sub-navigator {
 	padding-top: 0.5em;
 	padding-left: 2em;
 	padding-right: 1em;
+	border-radius: 1em;
 	background-color: #DDF8F0;
-	margin-left: 25.7em;  
+	margin-left: 22em;  
 	text-align: justify;
 	}
 
@@ -466,8 +468,9 @@ dd {
 	padding-right: 1em; 
 	padding-bottom: 3em;
 	margin-top: 3.7em;
-	margin-left: 19.8em;
+	margin-left: 17em;
 	margin-right: 1em;
+	border-radius: 1em;
 	background-color:  #DDF8F0;
 	font-size: 1.3em;
 }	
